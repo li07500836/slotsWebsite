@@ -8,7 +8,7 @@ var slotFlag = true;
 function randomRange(low, high) {
     var rand = Math.floor( Math.random() * (1 + 1*(high - low)) ) + low * 1;
     var result = rand % 12;
-    var v = [02,16,25,31,39,43,51,65,72,73,86,94];
+    var v = [27, 33, 39, 41, 43, 54, 62, 71, 76, 84, 87, 96];
     return v[result];
     //return Math.floor( Math.random() * (1 + 1*(high - low)) ) + low * 1;
 }
